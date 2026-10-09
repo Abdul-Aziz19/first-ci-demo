@@ -1,12 +1,4 @@
-def predict_result(internal_marks, attendance):
-    if internal_marks >= 40 and attendance >= 75:
-        return "FAIL"  # Intentional error
-    else:
-        return "FAIL"
 
-
-if __name__ == "__main__":
-    result = predict_resul
 def predict_result(internal_marks, attendance):
     if internal_marks >= 40 and attendance >= 75:
         return "PASS"
@@ -16,5 +8,4 @@ def predict_result(internal_marks, attendance):
 
 if __name__ == "__main__":
     result = predict_result(70, 85)
-    print("Predicted Result:", result)t(70, 85)
     print("Predicted Result:", result)
